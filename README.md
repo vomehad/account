@@ -1,8 +1,8 @@
 # account
 
-## Project setup
+### Run JSON server first
 ```
-npm install
+json-server --watch db.json
 ```
 
 ### Compiles and hot-reloads for development
@@ -10,10 +10,11 @@ npm install
 npm run serve
 ```
 
+or
+
 ### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
